@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  width: 90%;
+  max-width: 500px;
+  color: white;
+  font-weight: 300;
+}
+.main-heading {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 38px;
+  font-weight: 500;
+}
+.speed-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+}
+.limit {
+  color: #94a3b8;
+  font-size: 13px;
+  margin-bottom: 30px;
+}
+.button1 {
+  color: #ffffff;
+  background-color: #0b69ff;
+  border: none;
+  margin-right: 30px;
+}
+.button2 {
+  color: #94a3b8;
+  background-color: transparent;
+  border: 2px solid #94a3b8;
+}
+button {
+  cursor: pointer;
+  outline: none;
+  width: 95px;
+  height: 37px;
+  border-radius: 7px;
+}
